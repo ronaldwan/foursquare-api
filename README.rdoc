@@ -1,6 +1,40 @@
 = foursquare-api
 
-Description goes here.
+foursquare-api is a Ruby wrapper for the new Foursqauare V2 API
+
+= installation
+
+$ gem install foursquare-api
+
+= usage
+
+>> venue = Foursquare::Venue.new(origin_identifier, access_token)
+>> venue.search({:ll => "37.792694,-122.409325"})
+>> {"meta"=>{"code"=>200},
+    "response"=>{"groups"=>[{   "type"=>"trending",
+                                "name"=>"Trending Now",
+                                "items"=>[{ "id"=>"4330a280f964a520fa271fe3",
+                                            "name"=>"Supperclub",
+                                            "contact"=>{"phone"=>"4153480900"},
+                                            "location"=>{"address"=>"657 Harrison St",
+                                            "crossStreet"=>"btw 2nd & 3rd St",
+                                            "city"=>"San Francisco",
+                                            "state"=>"CA",
+                                            "postalCode"=>"94107",
+                                            "country"=>"USA",
+                                            "lat"=>37.783223,
+                                            "lng"=>-122.396472,
+                                            "distance"=>1545},
+                                            "categories"=>[{"id"=>"4bf58dd8d48988d121941735",
+                                                            "name"=>"Lounge",
+                                                            "icon"=>"http://foursquare.com/img/categories/nightlife/lounge.png",
+                                                            "parents"=>["Nightlife"],
+                                                            "primary"=>true}],
+                                            "verified"=>false,
+                                            "stats"=>{"checkinsCount"=>1306, "usersCount"=>950},
+                                            "todos"=>{"count"=>0},
+                                            "specials"=>[],
+                                            "hereNow"=>{"count"=>5}}]}}
 
 == Contributing to foursquare-api
  
@@ -14,6 +48,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 ronaldwan. See LICENSE.txt for
+Copyright (c) 2011 Ronald Wan. See LICENSE.txt for
 further details.
 
