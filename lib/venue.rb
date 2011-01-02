@@ -1,5 +1,5 @@
 module Foursquare
-  class Venue < Node
+  class Venue < Foursquare::Node
     #Venues
     def add(params={})
       params = {:name => "",

@@ -1,5 +1,5 @@
 module Foursquare
-  class Settings < Node
+  class Settings < Foursquare::Node
     #General
     def all
       perform_graph_request("settings/all", {})

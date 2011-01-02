@@ -1,5 +1,5 @@
 module Foursquare
-  class Checkins < Node
+  class Checkins < Foursquare::Node
     #General
     def add(params={})
       params = {:venueId    => "",

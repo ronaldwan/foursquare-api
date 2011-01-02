@@ -1,5 +1,5 @@
 module Foursquare
-  class Tips < Node
+  class Tips < Foursquare::Node
     #General
     def add(params={})
       params = {:venueId => "",

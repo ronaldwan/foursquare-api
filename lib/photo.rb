@@ -1,5 +1,5 @@
 module Foursquare
-  class Photo < Node
+  class Photo < Foursquare::Node
     def add(params={}, file="")
       require 'rest_client'
 

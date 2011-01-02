@@ -1,4 +1,4 @@
-require 'node'e
+require 'node'
 require 'checkins'
 require 'photo'
 require 'settings'

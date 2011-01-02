@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{foursquare-api}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ronaldwan"]
@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     ".idea/.rakeTasks",
+    ".idea/dictionaries/ronaldw.xml",
     ".idea/encodings.xml",
     ".idea/foursquare-api.iml",
     ".idea/misc.xml",

@@ -1,5 +1,5 @@
 module Foursquare
-  class User < Node
+  class User < Foursquare::Node
     #General
     def search(params={})
       params = {:phone => "",
