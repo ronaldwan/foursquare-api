@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ronaldwan"]
-  s.date = %q{2011-01-01}
+  s.date = %q{2011-01-02}
   s.description = %q{Please see github for description}
   s.email = %q{ronald__wan@hotmail.com}
   s.extra_rdoc_files = [
@@ -18,11 +18,29 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".idea/.rakeTasks",
+    ".idea/encodings.xml",
+    ".idea/foursquare-api.iml",
+    ".idea/misc.xml",
+    ".idea/modules.xml",
+    ".idea/vcs.xml",
+    ".idea/workspace.xml",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "foursquare-api.gemspec",
+    "lib/.DS_Store",
+    "lib/checkins.rb",
+    "lib/foursquare.rb",
+    "lib/node.rb",
+    "lib/photo.rb",
+    "lib/settings.rb",
+    "lib/tips.rb",
+    "lib/user.rb",
+    "lib/venue.rb",
     "test/helper.rb",
     "test/test_foursquare-api.rb"
   ]
