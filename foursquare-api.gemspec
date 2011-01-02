@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{foursquare-api}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ronaldwan"]
@@ -34,14 +34,14 @@ Gem::Specification.new do |s|
     "VERSION",
     "foursquare-api.gemspec",
     "lib/.DS_Store",
-    "lib/checkins.rb",
     "lib/foursquare.rb",
-    "lib/node.rb",
-    "lib/photo.rb",
-    "lib/settings.rb",
-    "lib/tips.rb",
-    "lib/user.rb",
-    "lib/venue.rb",
+    "lib/foursquare_checkins.rb",
+    "lib/foursquare_node.rb",
+    "lib/foursquare_photo.rb",
+    "lib/foursquare_settings.rb",
+    "lib/foursquare_tips.rb",
+    "lib/foursquare_user.rb",
+    "lib/foursquare_venue.rb",
     "test/helper.rb",
     "test/test_foursquare-api.rb"
   ]

@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9bf4dcc-faf0-4ff0-970a-dfec1d51548e" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/checkins.rb" afterPath="$PROJECT_DIR$/lib/foursquare_checkins.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/node.rb" afterPath="$PROJECT_DIR$/lib/foursquare_node.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/photo.rb" afterPath="$PROJECT_DIR$/lib/foursquare_photo.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/settings.rb" afterPath="$PROJECT_DIR$/lib/foursquare_settings.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/tips.rb" afterPath="$PROJECT_DIR$/lib/foursquare_tips.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/user.rb" afterPath="$PROJECT_DIR$/lib/foursquare_user.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/venue.rb" afterPath="$PROJECT_DIR$/lib/foursquare_venue.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION" afterPath="$PROJECT_DIR$/VERSION" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foursquare-api.gemspec" afterPath="$PROJECT_DIR$/foursquare-api.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/checkins.rb" afterPath="$PROJECT_DIR$/lib/checkins.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/foursquare.rb" afterPath="$PROJECT_DIR$/lib/foursquare.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/photo.rb" afterPath="$PROJECT_DIR$/lib/photo.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/settings.rb" afterPath="$PROJECT_DIR$/lib/settings.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tips.rb" afterPath="$PROJECT_DIR$/lib/tips.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/user.rb" afterPath="$PROJECT_DIR$/lib/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/venue.rb" afterPath="$PROJECT_DIR$/lib/venue.rb" />
     </list>
     <ignored path="foursquare-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,25 +36,7 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="foursquare-api.gemspec" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foursquare-api.gemspec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foursquare.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/foursquare.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VERSION" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="VERSION" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VERSION">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
@@ -61,64 +45,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkins.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/checkins.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="37" selection-end="49" vertical-scroll-proportion="-0.46153846">
+            <state line="9" column="16" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photo.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/photo.rb">
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+            <state line="12" column="27" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/node.rb">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/settings.rb">
+      <file leaf-file-name="foursquare-api.gemspec" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foursquare-api.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tips.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/tips.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="venue.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/venue.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="46" selection-end="46" vertical-scroll-proportion="0.030927835">
+            <state line="23" column="17" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,7 +117,6 @@
       <list>
         <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/VERSION" />
         <option value="$PROJECT_DIR$/lib/foursquare.rb" />
         <option value="$PROJECT_DIR$/foursquare-api.gemspec" />
         <option value="$PROJECT_DIR$/lib/checkins.rb" />
@@ -169,6 +125,7 @@
         <option value="$PROJECT_DIR$/lib/tips.rb" />
         <option value="$PROJECT_DIR$/lib/user.rb" />
         <option value="$PROJECT_DIR$/lib/venue.rb" />
+        <option value="$PROJECT_DIR$/VERSION" />
       </list>
     </option>
   </component>
@@ -198,7 +155,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,20 +177,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foursquare-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foursquare-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -242,6 +184,7 @@
         <subPane subId="Problems" />
         <subPane subId="All" />
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,6 +194,24 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="" />
@@ -303,12 +264,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22133759" sideWeight="0.6702454" order="1" side_tool="false" content_ui="tabs" x="1781" y="61" width="278" height="902" />
@@ -317,6 +277,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -356,9 +317,56 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/foursquare_settings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="31" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/foursquare_tips.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/foursquare_user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/foursquare_venue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="336" selection-end="336" vertical-scroll-proportion="0.21187802" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/foursquare_photo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="46" selection-end="46" vertical-scroll-proportion="0.019261638" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/foursquare_node.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/foursquare_checkins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="37" selection-end="49" vertical-scroll-proportion="0.019261638" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/foursquare.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" />
+        <state line="9" column="16" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
@@ -366,77 +374,21 @@
         <state line="12" column="27" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foursquare-api.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="17" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VERSION">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foursquare-api.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/checkins.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="37" selection-end="49" vertical-scroll-proportion="-0.46153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/foursquare.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/node.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/photo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/settings.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tips.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/venue.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="46" selection-end="46" vertical-scroll-proportion="0.030927835">
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>
