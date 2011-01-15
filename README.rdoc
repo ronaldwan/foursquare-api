@@ -8,7 +8,7 @@ $ gem install foursquare-api
 
 = usage
 
-venue = Foursquare::Venue.new(origin_identifier, access_token)
+venue = Foursquare::Venue.new(access_token)
 
 venue.search({:ll => "37.792694,-122.409325"})
 
