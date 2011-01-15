@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9bf4dcc-faf0-4ff0-970a-dfec1d51548e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
     </list>
     <ignored path="foursquare-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,55 +27,37 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LICENSE.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VERSION" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VERSION">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rdoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="2" selection-start="2424" selection-end="2424" vertical-scroll-proportion="0.9232">
+            <state line="91" column="2" selection-start="2424" selection-end="2424" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foursquare_venue.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/foursquare_venue.rb">
+      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="19" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foursquare_tips.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/foursquare_tips.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foursquare_user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/foursquare_user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="16" selection-start="1850" selection-end="1858" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foursquare_settings.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/foursquare_settings.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foursquare_photo.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/foursquare_photo.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+            <state line="18" column="84" selection-start="672" selection-end="672" vertical-scroll-proportion="0.32826748">
               <folding />
             </state>
           </provider>
@@ -123,11 +105,11 @@
         <option value="$PROJECT_DIR$/lib/user.rb" />
         <option value="$PROJECT_DIR$/lib/venue.rb" />
         <option value="$PROJECT_DIR$/VERSION" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/foursquare_node.rb" />
         <option value="$PROJECT_DIR$/foursquare-api.gemspec" />
         <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
   </component>
@@ -352,11 +334,6 @@
         <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VERSION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/foursquare_node.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="7" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
@@ -385,13 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/foursquare_checkins.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="21" selection-start="1133" selection-end="1146" vertical-scroll-proportion="0.45360824">
@@ -401,38 +371,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/foursquare_photo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+        <state line="1" column="28" selection-start="46" selection-end="46" vertical-scroll-proportion="0.018237082">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/foursquare_settings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" />
+        <state line="1" column="31" selection-start="49" selection-end="49" vertical-scroll-proportion="0.018237082">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/foursquare_tips.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
+        <state line="1" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.018237082">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/foursquare_user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="16" selection-start="1850" selection-end="1858" vertical-scroll-proportion="0.0">
+        <state line="71" column="16" selection-start="1850" selection-end="1858" vertical-scroll-proportion="0.781155">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/foursquare_venue.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="19" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
+        <state line="30" column="19" selection-start="895" selection-end="895" vertical-scroll-proportion="0.16109422">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VERSION">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="2" selection-start="2424" selection-end="2424" vertical-scroll-proportion="0.9232">
+        <state line="91" column="2" selection-start="2424" selection-end="2424" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="84" selection-start="672" selection-end="672" vertical-scroll-proportion="0.32826748">
           <folding />
         </state>
       </provider>
