@@ -38,17 +38,66 @@ venue.search({:ll => "37.792694,-122.409325"})
                                             "specials"=>[],
                                             "hereNow"=>{"count"=>5}}]}}
 
-== Contributing to foursquare-api
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+= supported endpoints
 
-== Copyright
+== Checkins
+
+* add
+* recent
+* addcomment
+* deletecomment
+
+== Photo (Beta)
+
+* add
+
+== Setting
+
+* all
+* set
+
+== Tips
+
+* add
+* search
+* marktodo
+* markdone
+* unmark
+
+== User
+
+* search
+* request
+* badges
+* checkins
+* friends
+* tips
+* todos
+* venuehistory
+* request
+* unfriend
+* approve
+* deny
+* setpings
+
+== Venue
+
+* add
+* categories
+* search
+* herenow
+* tips
+* marktodo
+* flag
+* proposeedit
+
+
+= Contributing to foursquare-api
+ 
+* If you have made any improvements to the foursquare-api gem and want to release it under this branch, feel free to contact me on github.  I'll add you as a contributor.
+* Otherwise, feel free to fork this branch.  Just remember to include me in the README.
+
+= Copyright
 
 Copyright (c) 2011 Ronald Wan. See LICENSE.txt for
 further details.
