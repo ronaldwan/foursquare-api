@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9bf4dcc-faf0-4ff0-970a-dfec1d51548e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION" afterPath="$PROJECT_DIR$/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foursquare-api.gemspec" afterPath="$PROJECT_DIR$/foursquare-api.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/foursquare_node.rb" afterPath="$PROJECT_DIR$/lib/foursquare_node.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
     </list>
     <ignored path="foursquare-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,6 +54,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="29" selection-start="303" selection-end="303" vertical-scroll-proportion="0.18604651">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="foursquare_node.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/foursquare_node.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foursquare-api.gemspec" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="foursquare-api.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foursquare-api.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="53" selection-start="109" selection-end="122" vertical-scroll-proportion="0.036474165">
+            <state line="2" column="53" selection-start="109" selection-end="122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/lib/foursquare.rb" />
         <option value="$PROJECT_DIR$/lib/checkins.rb" />
         <option value="$PROJECT_DIR$/lib/photo.rb" />
@@ -131,6 +136,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/foursquare_node.rb" />
         <option value="$PROJECT_DIR$/foursquare-api.gemspec" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -350,11 +356,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/foursquare_settings.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="31" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" />
@@ -402,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="3" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
@@ -425,7 +419,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foursquare-api.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="53" selection-start="109" selection-end="122" vertical-scroll-proportion="0.036474165">
+        <state line="2" column="53" selection-start="109" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="29" selection-start="303" selection-end="303" vertical-scroll-proportion="0.18604651">
           <folding />
         </state>
       </provider>

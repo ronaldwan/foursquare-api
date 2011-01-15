@@ -8,10 +8,12 @@ $ gem install foursquare-api
 
 = usage
 
->> venue = Foursquare::Venue.new(origin_identifier, access_token)
->> venue.search({:ll => "37.792694,-122.409325"})
->> {"meta"=>{"code"=>200},
-    "response"=>{"groups"=>[{   "type"=>"trending",
+venue = Foursquare::Venue.new(origin_identifier, access_token)
+
+venue.search({:ll => "37.792694,-122.409325"})
+
+{"meta"=>{"code"=>200},
+ "response"=>{"groups" =>  [{   "type"=>"trending",
                                 "name"=>"Trending Now",
                                 "items"=>[{ "id"=>"4330a280f964a520fa271fe3",
                                             "name"=>"Supperclub",
