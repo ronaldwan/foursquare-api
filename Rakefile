@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/ronaldwan/foursquare-api"
   gem.license = "GPL"
   gem.summary = "%Q{foursquare-api is a Ruby wrapper for the new Foursqauare V2 API}"
-  gem.description = %Q{Please see github for description}
+  gem.description = "%Q{foursquare-api is a Ruby wrapper for the new Foursqauare V2 API}"
   gem.email = "ronald__wan@hotmail.com"
   gem.authors = ["ronaldwan"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,

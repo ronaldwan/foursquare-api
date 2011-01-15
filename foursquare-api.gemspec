@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{foursquare-api}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ronaldwan"]
-  s.date = %q{2011-01-02}
-  s.description = %q{Please see github for description}
+  s.date = %q{2011-01-15}
+  s.description = %q{%Q{foursquare-api is a Ruby wrapper for the new Foursqauare V2 API}}
   s.email = %q{ronald__wan@hotmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",

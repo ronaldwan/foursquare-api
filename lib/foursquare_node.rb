@@ -1,7 +1,7 @@
 module Foursquare
   class Node
-    def initialize(origin_identifier, access_token="")
-      @origin_identifier  = origin_identifier
+
+    def initialize(access_token)
       @access_token       = access_token
       @base_url = "https://api.foursquare.com:443/v2/"
     end
