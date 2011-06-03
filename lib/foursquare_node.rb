@@ -2,21 +2,29 @@ module Foursquare
   class Node
     def initialize(access_token)
       @access_token       = access_token
-      @base_url = "https://api.foursquare.com:443/v2/"
     end
 
-    def perform_graph_request(endpoint, params={}, method="get")
+    BASE_URL = "https://api.foursquare.com:443/v2/"
+
+    def self.perform_graph_request(endpoint, params={}, method="get")
       require 'net/http'
 
-      @query_string = "?"
-      @query_string += "oauth_token=#{CGI.escape(@access_token)}" unless @access_token.empty?
+      query_string = "?"
+      if params[:oauth_token]
+        query_string += "oauth_token=#{params[:oauth_token]}"
+      elsif params[:client_id] && params[:client_secret]
+        query_string += "client_id=#{params[:client_id]}&client_secret=#{params[:client_secret]}"
+      else
+        raise "client_id and client_secret or oauth_token are required."
+      end
+      params.reject! {|k,v| [:oauth_token, :client_secret, :client_id].include?(k) }
 
       if method=="get"
-        params.each{|key, val| @query_string += "&#{key}=#{val}"}
-        url = URI.parse("#{@base_url}#{endpoint}#{@query_string}")
+        params.each{|key, val| query_string += "&#{key}=#{val}"}
+        url = URI.parse("#{BASE_URL}#{endpoint}#{query_string}")
         request = Net::HTTP::Get.new("#{url.path}?#{url.query}",{"Content-Type"=>"text/json"})
       else
-        url = URI.parse("#{@base_url}#{endpoint}#{@query_string}")
+        url = URI.parse("#{BASE_URL}#{endpoint}#{query_string}")
         request = Net::HTTP::Post.new("#{url.path}?#{url.query}",{"Content-Type"=>"text/json"})
         request.set_form_data(params)
       end
@@ -27,7 +35,7 @@ module Foursquare
       response
     end
   end
-  
+
   def self.exchange_access_token(code, client_id, client_secret, callback)
     require 'net/http'
 

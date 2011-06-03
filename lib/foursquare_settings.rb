@@ -2,7 +2,7 @@ module Foursquare
   class Settings < Foursquare::Node
     #General
     def all
-      perform_graph_request("settings/all", {})
+      self.class.perform_graph_request("settings/all", {}.merge(:oauth_token => @access_token))
     end
 
     #Actions
@@ -10,7 +10,7 @@ module Foursquare
       # setting_id can be  sendToTwitter, sendToFacebook, receivePings
       params = {:valueId => ""}.merge!(params)
 
-      perform_graph_request("settings/#{setting_id}/set", params, "post")
+      self.class.perform_graph_request("settings/#{setting_id}/set", params.merge(:oauth_token => @access_token), "post")
     end
   end
 end
