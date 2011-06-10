@@ -1,10 +1,26 @@
-module Foursquare
-  class Node
-    def initialize(access_token)
-      @access_token       = access_token
-    end
+module MetaFour
 
-    BASE_URL = "https://api.foursquare.com:443/v2/"
+  BASE_URL = "https://api.foursquare.com:443/v2/"
+
+  attr_accessor :client_id, :client_secret
+
+  def base_url
+    @base_url || BASE_URL
+  end
+
+  def base_url=(value)
+    @base_url = value if value   
+  end
+end
+
+module Foursquare
+
+  class Node
+    extend MetaFour
+
+    def initialize(access_token)
+      @access_token = access_token
+    end
 
     def self.perform_graph_request(endpoint, params={}, method="get")
       require 'net/http'
@@ -14,6 +30,8 @@ module Foursquare
         query_string += "oauth_token=#{params[:oauth_token]}"
       elsif params[:client_id] && params[:client_secret]
         query_string += "client_id=#{params[:client_id]}&client_secret=#{params[:client_secret]}"
+      elsif @client_id && @client_secret
+        query_string += "client_id=#{@client_id}&client_secret=#{@client_secret}"
       else
         raise "client_id and client_secret or oauth_token are required."
       end
@@ -21,10 +39,10 @@ module Foursquare
 
       if method=="get"
         params.each{|key, val| query_string += "&#{key}=#{val}"}
-        url = URI.parse("#{BASE_URL}#{endpoint}#{query_string}")
+        url = URI.parse("#{base_url}#{endpoint}#{query_string}")
         request = Net::HTTP::Get.new("#{url.path}?#{url.query}",{"Content-Type"=>"text/json"})
       else
-        url = URI.parse("#{BASE_URL}#{endpoint}#{query_string}")
+        url = URI.parse("#{base_url}#{endpoint}#{query_string}")
         request = Net::HTTP::Post.new("#{url.path}?#{url.query}",{"Content-Type"=>"text/json"})
         request.set_form_data(params)
       end
