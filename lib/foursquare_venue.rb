@@ -12,7 +12,7 @@ module Foursquare
                 :ll => "37.792694,-122.409325",
                 :primaryCategoryId => "4bf58dd8d48988d1e1931735"}.merge!(params)
 
-      self.class.perform_graph_request("venues/add", params.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("venues/add", params, "post")
     end
 
     def self.categories(params={})
@@ -20,7 +20,7 @@ module Foursquare
     end
 
     def categories(params={})
-      self.class.perform_graph_request("venues/categories", {}.merge(:oauth_token => @access_token))
+      perform_graph_request("venues/categories", params)
     end
 
     def self.search(params={})
@@ -40,25 +40,25 @@ module Foursquare
 
     #Aspects
     def herenow(venue_id)
-      self.class.perform_graph_request("venues/#{venue_id}/herenow", {}.merge(:oauth_token => @access_token))
+      perform_graph_request("venues/#{venue_id}/herenow", {})
     end
 
     #sort = recent or popular
     def tips(venue_id, params={:sort => "recent"})
-      self.class.perform_graph_request("venues/#{venue_id}/tips", {}.merge(:oauth_token => @access_token))
+      perform_graph_request("venues/#{venue_id}/tips", params)
     end
 
     #marktodo
     def marktodo(venue_id, params={})
       params = {:text => ""}.merge!(params)
 
-      self.class.perform_graph_request("venues/#{venue_id}/marktodo", params.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("venues/#{venue_id}/marktodo", params, "post")
     end
 
     def flag(venue_id, params={})
       params = {:problem => "mislocated"}.merge!(params)
 
-      self.class.perform_graph_request("venues/#{venue_id}/flag", params.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("venues/#{venue_id}/flag", params, "post")
     end
 
     def proposeedit(venue_id, params={})
@@ -72,7 +72,7 @@ module Foursquare
                 :ll => "37.792694,-122.409325",
                 :primaryCategoryId => "4bf58dd8d48988d1e1931735"}.merge!(params)
 
-      self.class.perform_graph_request("venues/#{venue_id}/proposeedit", params.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("venues/#{venue_id}/proposeedit", params, "post")
     end
   end
 end

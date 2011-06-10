@@ -11,7 +11,7 @@ module Foursquare
                 :alt        => "0",
                 :altAcc     => "100"}.merge!(params)
 
-      self.class.perform_graph_request("checkins/add", params.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("checkins/add", params, "post")
     end
 
     def recent(params={})
@@ -20,7 +20,7 @@ module Foursquare
                 :offset             => "0",
                 :afterTimestampAcc  => ""}.merge!(params)
 
-      self.class.perform_graph_request("checkins/recent", params.merge(:oauth_token => @access_token))
+      perform_graph_request("checkins/recent", params)
     end
 
     #Actions
@@ -28,13 +28,13 @@ module Foursquare
       params = {:ll   => "37.792694,-122.409325", #for returning each venue's distance from ;;
                 :text => "100"}.merge!(params)
 
-      self.class.perform_graph_request("checkins/#{checkin_id}/addcomment", params.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("checkins/#{checkin_id}/addcomment", params, "post")
     end
 
     def deletecomment(checkin_id, params={})
       params = {:commentId  => ""}.merge!(params)
 
-      self.class.perform_graph_request("checkins/#{checkin_id}/deletecomment", params.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("checkins/#{checkin_id}/deletecomment", params, "post")
     end
   end
 end

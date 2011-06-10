@@ -6,7 +6,7 @@ module Foursquare
                 :text => "",
                 :url => ""}.merge!(params)
 
-      self.class.perform_graph_request("tips/add", params.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("tips/add", params, "post")
     end
 
     def search(params={})
@@ -16,20 +16,20 @@ module Foursquare
                 :filter => "",
                 :query => ""}.merge!(params)
 
-      self.class.perform_graph_request("tips/search", params.merge(:oauth_token => @access_token))
+      perform_graph_request("tips/search", params)
     end
 
     #Actions
     def marktodo(tip_id)
-      self.class.perform_graph_request("tips/#{tip_id}/marktodo", {}.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("tips/#{tip_id}/marktodo", {}, "post")
     end
 
     def markdone(tip_id)
-      self.class.perform_graph_request("tips/#{tip_id}/markdone", {}.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("tips/#{tip_id}/markdone", {}, "post")
     end
 
     def unmark(tip_id)
-      self.class.perform_graph_request("tips/#{tip_id}/unmark", {}.merge(:oauth_token => @access_token), "post")
+      perform_graph_request("tips/#{tip_id}/unmark", {}, "post")
     end
   end
 end

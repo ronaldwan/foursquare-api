@@ -52,6 +52,11 @@ module Foursquare
       response = JSON.parse(http.start {|http| http.request(request)}.body)
       response
     end
+
+    def perform_graph_request(endpoint, params={}, method="get")
+      h = {:oauth_token => @oauth_token}
+      self.class.perform_graph_request(endpoint, params.merge(h), method)
+    end
   end
 
   def self.exchange_access_token(code, client_id, client_secret, callback)
