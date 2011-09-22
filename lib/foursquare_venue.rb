@@ -1,6 +1,10 @@
 module Foursquare
   class Venue < Foursquare::Node
     #Venues
+    def details(venue_id)
+      perform_graph_request("venues/#{venue_id}", {})
+    end
+
     def add(params={})
       params = {:name => "",
                 :address => "",
