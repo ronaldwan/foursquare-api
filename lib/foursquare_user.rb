@@ -13,12 +13,12 @@ module Foursquare
     end
 
     def requests
-      perform_graph_request("users/requests")
+      perform_graph_request("users/requests", {})
     end
 
     #Aspects
     def badges(user_id)
-      perform_graph_request("users/#{user_id}/badges")
+      perform_graph_request("users/#{user_id}/badges", {})
     end
 
     def checkins(user_id="self", params={})
@@ -31,7 +31,7 @@ module Foursquare
     end
 
     def friends(user_id="self")
-      perform_graph_request("users/#{user_id}/friends")
+      perform_graph_request("users/#{user_id}/friends", params)
     end
 
     def tips(user_id="self", params={})
@@ -49,7 +49,7 @@ module Foursquare
     end
 
     def venuehistory(user_id="self")
-      perform_graph_request("users/#{user_id}/venuehistory")
+      perform_graph_request("users/#{user_id}/venuehistory", params)
     end
 
     #Actions
